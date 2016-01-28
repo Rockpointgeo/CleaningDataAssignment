@@ -1,0 +1,108 @@
+# Code Book
+
+---
+
+## Data file
+
+`tidy_data.txt`
+
+---
+
+## Description
+
+The tidy data set is made up of 66 variables. The values represent the mean value
+of a given set of data for a particular subject performing a particular activity.
+The column names are contained in a header line in the data file. The names a human 
+readable verions the feature labels in the raw data set. All of the raw data values
+were normalized to lie between -1 and 1. The feature names are as follows:
+
+* TimeDomain_BodyAcceleration_XComponent_Mean
+* TimeDomain_BodyAcceleration_YComponent_Mean
+* TimeDomain_BodyAcceleration_ZComponent_Mean
+* TimeDomain_BodyAcceleration_XComponent_StandardDeviation
+* TimeDomain_BodyAcceleration_YComponent_StandardDeviation
+* TimeDomain_BodyAcceleration_ZComponent_StandardDeviation
+* TimeDomain_GravityAcceleration_XComponent_Mean
+* TimeDomain_GravityAcceleration_YComponent_Mean
+* TimeDomain_GravityAcceleration_ZComponent_Mean
+* TimeDomain_GravityAcceleration_XComponent_StandardDeviation
+* TimeDomain_GravityAcceleration_YComponent_StandardDeviation
+* TimeDomain_GravityAcceleration_ZComponent_StandardDeviation
+* TimeDomain_BodyAccelerationJerk_XComponent_Mean
+* TimeDomain_BodyAccelerationJerk_YComponent_Mean
+* TimeDomain_BodyAccelerationJerk_ZComponent_Mean
+* TimeDomain_BodyAccelerationJerk_XComponent_StandardDeviation
+* TimeDomain_BodyAccelerationJerk_YComponent_StandardDeviation
+* TimeDomain_BodyAccelerationJerk_ZComponent_StandardDeviation
+* TimeDomain_BodyGyroscope_XComponent_Mean
+* TimeDomain_BodyGyroscope_YComponent_Mean
+* TimeDomain_BodyGyroscope_ZComponent_Mean
+* TimeDomain_BodyGyroscope_XComponent_StandardDeviation
+* TimeDomain_BodyGyroscope_YComponent_StandardDeviation
+* TimeDomain_BodyGyroscope_ZComponent_StandardDeviation
+* TimeDomain_BodyGyroscopeJerk_XComponent_Mean
+* TimeDomain_BodyGyroscopeJerk_YComponent_Mean
+* TimeDomain_BodyGyroscopeJerk_ZComponent_Mean
+* TimeDomain_BodyGyroscopeJerk_XComponent_StandardDeviation
+* TimeDomain_BodyGyroscopeJerk_YComponent_StandardDeviation
+* TimeDomain_BodyGyroscopeJerk_ZComponent_StandardDeviation
+* TimeDomain_BodyAcceleration_Magnitude_Mean
+* TimeDomain_BodyAcceleration_Magnitude_StandardDeviation
+* TimeDomain_GravityAcceleration_Magnitude_Mean
+* TimeDomain_GravityAcceleration_Magnitude_StandardDeviation
+* TimeDomain_BodyAccelerationJerk_Magnitude_Mean
+* TimeDomain_BodyAccelerationJerk_Magnitude_StandardDeviation
+* TimeDomain_BodyGyroscope_Magnitude_Mean
+* TimeDomain_BodyGyroscope_Magnitude_StandardDeviation
+* TimeDomain_BodyGyroscopeJerk_Magnitude_Mean
+* TimeDomain_BodyGyroscopeJerk_Magnitude_StandardDeviation
+* FrequencyDomain_BodyAcceleration_XComponent_Mean
+* FrequencyDomain_BodyAcceleration_YComponent_Mean
+* FrequencyDomain_BodyAcceleration_ZComponent_Mean
+* FrequencyDomain_BodyAcceleration_XComponent_StandardDeviation
+* FrequencyDomain_BodyAcceleration_YComponent_StandardDeviation
+* FrequencyDomain_BodyAcceleration_ZComponent_StandardDeviation
+* FrequencyDomain_BodyAccelerationJerk_XComponent_Mean
+* FrequencyDomain_BodyAccelerationJerk_YComponent_Mean
+* FrequencyDomain_BodyAccelerationJerk_ZComponent_Mean
+* FrequencyDomain_BodyAccelerationJerk_XComponent_StandardDeviation
+* FrequencyDomain_BodyAccelerationJerk_YComponent_StandardDeviation
+* FrequencyDomain_BodyAccelerationJerk_ZComponent_StandardDeviation
+* FrequencyDomain_BodyGyroscope_XComponent_Mean
+* FrequencyDomain_BodyGyroscope_YComponent_Mean
+* FrequencyDomain_BodyGyroscope_ZComponent_Mean
+* FrequencyDomain_BodyGyroscope_XComponent_StandardDeviation
+* FrequencyDomain_BodyGyroscope_YComponent_StandardDeviation
+* FrequencyDomain_BodyGyroscope_ZComponent_StandardDeviation
+* FrequencyDomain_BodyAcceleration_Magnitude_Mean
+* FrequencyDomain_BodyAcceleration_Magnitude_StandardDeviation
+* FrequencyDomain_BodyBodyAccelerationJerk_Magnitude_Mean
+* FrequencyDomain_BodyBodyAccelerationJerk_Magnitude_StandardDeviation
+* FrequencyDomain_BodyBodyGyroscope_Magnitude_Mean
+* FrequencyDomain_BodyBodyGyroscope_Magnitude_StandardDeviation
+* FrequencyDomain_BodyBodyGyroscopeJerk_Magnitude_Mean
+* FrequencyDomain_BodyBodyGyroscopeJerk_Magnitude_StandardDeviation
+
+There are 180 measurements that correspond to 30 subjects observed during 6 activities.
+The rows are organized by subject and then by activity. The subjects are ordered from
+1 to 30 and the activities are ordered as follows:
+
+- WALKING
+- WALKING_UPSTAIRS
+- WALKING_DOWNSTAIRS
+- SITTING
+- STANDING
+- LAYING
+
+The first 10 rows of file would have the labels:
+
+* WALKING.1
+* WALKING_UPSTAIRS.1
+* WALKING_DOWNSTAIRS.1
+* SITTING.1
+* STANDING.1
+* LAYING.1
+* WALKING.2
+* WALKING_UPSTAIRS.2
+* WALKING_DOWNSTAIRS.2
+* SITTING.2

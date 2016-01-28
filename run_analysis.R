@@ -140,5 +140,9 @@ split_data <- split(subset_merged_data, list(subset_merged_data$Activity,
 # calculate the column means and reorganize into a matrix
 tidy_data <- sapply(split_data, function(x) colMeans(as.matrix(x[,-(1:2)])))
 
+# Take the transpose of the tidy_data matrix so that the feature variables are
+#  the rows
+tidy_data <- t(tidy_data)
+
 # write data set
 write.table(data.frame(tidy_data),"tidy_data.txt", row.names=FALSE)

@@ -6,7 +6,7 @@
 
 ### Analysis script
 
-All of the analysis is performed by the script run_analysis.R
+All of the analysis is performed by the script `run_analysis.R`
 
 ---
 
@@ -71,11 +71,10 @@ activity and each subject.
     * The merged subset data frame was split according to both subject and activity.
     * Sapply was used to calulate the column means of the columns containing the feature
     variables.
+    * the resulting matrix was transposed so that the measurement variables are the columns
     * the resulting matrix was written to a text file named `tidy_data.txt` using table.write.
-        - The columns of the data file are labelled `<activity>.<subject> i.e. `WALKING.1`.
-        - The rows of the data are not labelled but they contain the mean values of the 
-        subsetted features (a full list of the features can be found in the code book (`code_book.md`).
+        - The columns of the data contain the mean values of the features of the data set
+        and they are labelled with the readable names.
+        - The rows of the data file are not labelled but they correspond to the activity and subject
+        `<activity>.<subject> i.e. `WALKING.1`.
 
-
-    
-    
