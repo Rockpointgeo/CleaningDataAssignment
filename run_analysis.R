@@ -99,11 +99,11 @@ readable_names[meas_BodyGyro_ind] <- lapply(readable_names[meas_BodyGyro_ind],
 readable_names[meas_BodyGyroJerk_ind] <- lapply(readable_names[meas_BodyGyroJerk_ind],
                                             paste0, "BodyGyroscopeJerk_")
 readable_names[meas_BodyBodyAccJerk_ind] <- lapply(readable_names[meas_BodyBodyAccJerk_ind],
-                                               paste0, "BodyBodyAccelerationJerk_")
+                                               paste0, "BodyAccelerationJerk_")
 readable_names[meas_BodyBodyGyro_ind] <- lapply(readable_names[meas_BodyBodyGyro_ind],
-                                            paste0, "BodyBodyGyroscope_")
+                                            paste0, "BodyGyroscope_")
 readable_names[meas_BodyBodyGyroJerk_ind] <- lapply(readable_names[meas_BodyBodyGyroJerk_ind],
-                                                paste0, "BodyBodyGyroscopeJerk_")
+                                                paste0, "BodyGyroscopeJerk_")
 # <component>
 # get the indices
 comp_X_ind <- grepl("-X$", names(subset_merged_data[-(1:2)]))

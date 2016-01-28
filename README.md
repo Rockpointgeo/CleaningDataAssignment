@@ -61,6 +61,8 @@ A detailed description of the data set can be found at
         of BodyAcc.
         - `<component>`: e.g. XComponent instead of X() or Magnitude instead of Mag
         - `<statistic>`: e.g. StandardDeviation instead of std()
+    * Three of the features had the word Body repeated twice in their name. This error was found
+    in the feature labeld file and was corrected at this stage.
     * The renaming consisted of a series of grepl/regexp calls to get the indicies and then
     lapply/paste0 calls to gradually build the readable column names
     * after the readable names were complete they were assigned to the feature columns of the 
